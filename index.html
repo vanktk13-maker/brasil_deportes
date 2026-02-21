@@ -1,0 +1,203 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deportes Brasil: Pasión y Movimiento</title>
+
+<style>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+:root {
+    --verde-brasil: #009B3A;
+    --amarillo-brasil: #FEDF00;
+    --azul-brasil: #002776;
+}
+
+/* HEADER CON IMAGEN DE FÚTBOL DETRÁS DEL TÍTULO */
+header {
+    background-image: url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+}
+
+header h1, header p {
+    position: relative;
+    z-index: 2;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.8);
+}
+
+/* NAV */
+nav {
+    background-color: var(--azul-brasil);
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    margin-bottom: 40px;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+section h2 {
+    color: var(--azul-brasil);
+    border-bottom: 3px solid var(--amarillo-brasil);
+    padding-bottom: 12px;
+    margin-top: 0;
+}
+
+.section-image {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.player-card {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    background: #fffdf0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid var(--amarillo-brasil);
+}
+
+.player-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid var(--verde-brasil);
+}
+
+.player-card div {
+    text-align: left;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🇧🇷 Deportes Brasil</h1>
+    <p>Legado, Gloria y Movimiento</p>
+</header>
+
+<nav>
+    <a href="#futbol">Fútbol</a>
+    <a href="#voleibol">Voleibol</a>
+    <a href="#danza">Danza</a>
+</nav>
+
+<div class="container">
+
+<section id="futbol">
+<h2>⚽ Fútbol</h2>
+
+<img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=1200&q=80" class="section-image">
+
+<p>El fútbol es el deporte más importante y popular en Brasil. Forma parte de la identidad nacional y es una pasión que une a millones de personas en todo el país.</p>
+
+<p>Los partidos se viven con música, himnos y celebración en las gradas, reflejando cómo el deporte trasciende el juego y se convierte en cultura.</p>
+
+<div class="player-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Pel%C3%A9_by_John_Mathew_Smith.jpg" alt="Pelé">
+    <div>
+        <h4>Pelé</h4>
+        <p>Considerado uno de los mejores futbolistas de la historia, ganador de 3 Copas del Mundo con Brasil. Símbolo eterno del fútbol brasileño.</p>
+    </div>
+</div>
+
+</section>
+
+<section id="voleibol">
+<h2>🏐 Voleibol</h2>
+
+<img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=1200&q=80" class="section-image">
+
+<p>El voleibol ha sido otro deporte que ha colocado a Brasil en el escenario mundial. Brasil ha ganado múltiples títulos internacionales en voleibol de sala y playa.</p>
+
+<p>La disciplina, técnica y pasión de los jugadores brasileños hacen del voleibol una potencia reconocida alrededor del mundo.</p>
+
+<div class="player-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Giba_at_the_2008_Summer_Olympics.jpg" alt="Giba">
+    <div>
+        <h4>Giba</h4>
+        <p>Considerado uno de los mejores jugadores de voleibol de todos los tiempos. Lideró a Brasil a varios títulos mundiales y olímpicos.</p>
+    </div>
+</div>
+
+</section>
+
+<section id="danza">
+<h2>💃 Danza (Samba y Capoeira)</h2>
+
+<img src="https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&fit=crop&w=1200&q=80" class="section-image">
+
+<p>La danza, especialmente la samba y la capoeira, es una de las expresiones culturales más representativas de Brasil. Está muy ligada al Carnaval y a la música tradicional.</p>
+
+<p>La samba combina ritmo, movimiento y alegría, reflejando la diversidad cultural del país y la conexión entre música, danza y fiesta.</p>
+
+<div class="player-card">
+    <img src="https://images.unsplash.com/photo-1523480717989-32bddf8460ac?auto=format&fit=crop&w=400&q=80" alt="Mestre Bimba">
+    <div>
+        <h4>Mestre Bimba</h4>
+        <p>Figura histórica de la capoeira y la danza brasileña. Ayudó a profesionalizar y difundir estas expresiones culturales.</p>
+    </div>
+</div>
+
+</section>
+
+</div>
+
+</body>
+</html>
